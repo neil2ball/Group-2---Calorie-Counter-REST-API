@@ -14,13 +14,15 @@ class Employee {
   private String food;
   private String count;
   private String date;
+  private String android;
 
 
   Employee() {}
 
-  Employee(String food, String count, String date) {
+  Employee(String food, String count, String date, String android) {
     this.food = food;
     this.count = count;
     this.date = date;
+    this.android = android;
   }
 }
